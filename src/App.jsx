@@ -1,12 +1,13 @@
 
-import './App.css'
-
 function App() {
 
   return (
-    <>
-      <h1 className=' bg-amber-400'>Hii, I'm Sudarshan Maske</h1>
-    </>
+    <div className='min-h-screen overflow-x-hidden'>
+      <Navbar />
+      <main>
+
+      </main>
+    </div>
   )
 }
 
