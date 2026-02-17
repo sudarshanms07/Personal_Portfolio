@@ -1,10 +1,11 @@
+import { Footer } from "./layout/Footer"
 import { Navbar } from "./layout/Navbar"
-import About from "./sections/About"
-import Contact from "./sections/Contact"
-import Experience from "./sections/Experience"
-import Hero from "./sections/Hero"
-import Projects from "./sections/Projects"
-import Testimonials from "./sections/Testimonials"
+import {About} from "./sections/About"
+import {Contact} from "./sections/Contact"
+import {Experience} from "./sections/Experience"
+import { Hero } from "./sections/Hero"
+import {Projects} from "./sections/Projects"
+import {Testimonials} from "./sections/Testimonials"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Testimonials/>
           <Contact/>
       </main>
+      <Footer/>
     </div>
   )
 }
