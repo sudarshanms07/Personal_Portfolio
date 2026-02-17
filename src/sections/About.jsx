@@ -3,28 +3,30 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Frontend Engineering",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Strong hands-on experience with React, Tailwind CSS, JavaScript, and modern UI patterns.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Performance & UX",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Focused on building fast, responsive, and user-friendly interfaces with clean component architecture.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Team Experience",
+    description:
+      "Worked in a real-time team environment during internship, collaborating with seniors and following best practices.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Continuous Learning",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Actively improving backend skills, DSA, and system fundamentals for long-term growth as a full-stack developer.",
   },
 ];
+
 
 export const About = () => {
   return (
@@ -49,30 +51,35 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with an internship of 6 months onsite
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                  I'm a final-year engineering student and frontend-focused software developer
+                  with hands-on internship experience working on real-world web applications.
+                  My journey into development started with curiosity about how websites work,
+                  and quickly grew into a strong passion for building clean and interactive
+                  user interfaces.
               </p>
+
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                  I specialize in React, JavaScript, and Tailwind CSS, and have worked on
+                  features like protected routes, form handling with Formik & Yup, API
+                  integration, Redux state management, and responsive UI development. I enjoy
+                  turning designs into pixel-perfect, scalable components.
               </p>
+
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Alongside frontend development, I’m actively strengthening my backend
+                knowledge and data structures & algorithms to prepare for software
+                engineering roles. I believe in writing clean, maintainable code and
+                constantly improving through hands-on practice and learning.
               </p>
             </div>
 
+
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "I aim to grow as a software engineer by building meaningful products,
+                writing clean code, and continuously improving my skills through real-world
+                problem solving."
+
               </p>
             </div>
           </div>

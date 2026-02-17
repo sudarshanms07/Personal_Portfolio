@@ -75,19 +75,20 @@ export  const Hero = () => {
 
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
+                Building Modern <span className="text-primary glow-text">web interfaces</span>
                 <br />
-                experiences with
+                 with
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  {" "}
+                  clarity & performance.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Sudarshan — a final-year engineering student and frontend developer
+                with hands-on internship experience. I build responsive, user-focused web
+                applications using React, JavaScript, and Tailwind CSS.
               </p>
             </div>
 
