@@ -11,23 +11,26 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
+  "JavaScrpt",
+  "C++",
+  "Java",
   "Next.js",
-  "TypeScript",
+  // "TypeScript",
   "Node.js",
-  "GraphQL",
-  "PostgreSQL",
+  // "GraphQL",
+  // "PostgreSQL",
   "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
-  "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
+  // "Redis",
+  // "Docker",
+  // "AWS",
+  "Vercel",
+  // "Prisma",
+  // "Jest",
+  // "Cypress",
   "Git",
   "GitHub Actions",
+  "Figma",
 ];
 
 export  const Hero = () => {
@@ -151,7 +154,7 @@ export  const Hero = () => {
                 <img
                   src="/profile-photo.jpg"
                   alt="Pedro Machado"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  className="w-full aspect-[4/5] object-cover rounded-4xl"
                 />
 
                 {/* Floating Badge */}
@@ -164,12 +167,12 @@ export  const Hero = () => {
                   </div>
                 </div>
                 {/* Stats Badge */}
-                {/* <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
+                  <div className="text-2xl font-bold text-primary">250+</div>
                   <div className="text-xs text-muted-foreground">
-                    Years Exp.
+                    DSA Problems Solved.
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

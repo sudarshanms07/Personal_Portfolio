@@ -2,22 +2,22 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Movie Ticket Booking System",
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    tags: ["React", "TailwindCss", "NodeJS","ExpressJs","MongoDb"],
+    link: "https://movie-ticket-booking-system-inky.vercel.app/",
+    github: "https://github.com/sudarshanms07/movieTicketBookingSystem",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Dr. Appointment Booking webpage",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "A full-featured dr. appoitment booking solution with admin management, payment processing, and analytics dashboard.",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    tags: ["React", "TailwindCss", "NodeJS","ExpressJs","MongoDb", "Stripe", "PostgreSQL", "Tailwind"],
+    link: "https://sudarshanms07.github.io/Dr.-Appointment-Booking/",
+    github: "https://github.com/sudarshanms07/Dr.-Appointment-Booking",
   },
   {
     title: "AI Writing Assistant",
@@ -25,7 +25,7 @@ const projects = [
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
     image: "/projects/project3.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
+    link: "https://movie-ticket-booking-system-inky.vercel.app/",
     github: "#",
   },
   {

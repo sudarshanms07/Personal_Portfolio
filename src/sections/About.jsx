@@ -8,10 +8,10 @@ const highlights = [
       "Strong hands-on experience with React, Tailwind CSS, JavaScript, and modern UI patterns.",
   },
   {
-    icon: Rocket,
-    title: "Performance & UX",
+    icon: Lightbulb,
+    title: "250+ DSA problems",
     description:
-      "Focused on building fast, responsive, and user-friendly interfaces with clean component architecture.",
+      "Focused on problem solving using Data Structures and algorithms ( C++ )",
   },
   {
     icon: Users,
@@ -20,7 +20,7 @@ const highlights = [
       "Worked in a real-time team environment during internship, collaborating with seniors and following best practices.",
   },
   {
-    icon: Lightbulb,
+    icon:  Rocket,
     title: "Continuous Learning",
     description:
       "Actively improving backend skills, DSA, and system fundamentals for long-term growth as a full-stack developer.",
