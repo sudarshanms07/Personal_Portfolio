@@ -19,24 +19,6 @@ const projects = [
     link: "https://sudarshanms07.github.io/Dr.-Appointment-Booking/",
     github: "https://github.com/sudarshanms07/Dr.-Appointment-Booking",
   },
-  {
-    title: "AI Writing Assistant",
-    description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "https://movie-ticket-booking-system-inky.vercel.app/",
-    github: "#",
-  },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
-  },
 ];
 
 export const Projects = () => {
@@ -136,7 +118,9 @@ export const Projects = () => {
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
             View All Projects
-            <ArrowUpRight className="w-5 h-5" />
+            <ArrowUpRight onClick={() => {
+                      window.location.href = "https://github.com/sudarshanms07";
+                  }} className="w-5 h-5" />
           </AnimatedBorderButton>
         </div>
       </div>
