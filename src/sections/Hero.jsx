@@ -7,6 +7,7 @@ import {
   Twitter,
   Download,
 } from "lucide-react";
+import { SiLeetcode } from "react-icons/si";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
@@ -128,7 +129,7 @@ export  const Hero = () => {
               {[
                 { icon: Github, href: "https://github.com/sudarshanms07" },
                 { icon: Linkedin, href: "https://www.linkedin.com/in/sudarshanmaske22/" },
-                { icon: Twitter, href: "#" },
+                { icon: SiLeetcode, href: "https://leetcode.com/u/ms22maske/" },
               ].map((social, idx) => (
                 <a
                   key={idx}
