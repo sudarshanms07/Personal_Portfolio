@@ -13,6 +13,7 @@ I specialize in building modern, responsive, and user-focused web applications u
 
 ## 🛠️ Tech Stack
 
+* 💻 C++ (DSA & Problem Solving) 
 * ⚛️ React.js
 * 🎨 Tailwind CSS
 * 🧠 JavaScript (ES6+)
@@ -36,7 +37,7 @@ I specialize in building modern, responsive, and user-focused web applications u
 ## 📊 DSA Profile
 
 * 🧠 Solved **280+ problems** on LeetCode
-* 🔗 LeetCode: https://leetcode.com/your-username
+* 🔗 LeetCode: https://leetcode.com/u/ms22maske/
 
 ---
 
