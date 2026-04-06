@@ -1,16 +1,97 @@
-# React + Vite
+# 💼 Sudarshan Maske - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo: https://personal-portfolio-delta-blond.vercel.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👨‍💻 About Me
 
-## React Compiler
+Hi, I'm **Sudarshan Maske**, a final-year engineering student and passionate **Frontend Developer**.
+I specialize in building modern, responsive, and user-focused web applications using React and Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* 🧠 JavaScript (ES6+)
+* 🌐 HTML5 & CSS3
+* 🔗 Git & GitHub
+* 🚀 Vercel (Deployment)
+
+---
+
+## ✨ Features
+
+* 🔥 Modern UI/UX design
+* 📱 Fully responsive (mobile-first)
+* ⚡ Smooth animations and transitions
+* 🧩 Reusable components
+* 📄 Downloadable Resume
+* 🔗 Social links (GitHub, LinkedIn, LeetCode)
+
+---
+
+## 📊 DSA Profile
+
+* 🧠 Solved **280+ problems** on LeetCode
+* 🔗 LeetCode: https://leetcode.com/your-username
+
+---
+
+## 📸 Preview
+
+<img width="1867" height="908" alt="image" src="https://github.com/user-attachments/assets/d0914da0-2faf-4a74-ae1f-036d3fc51e3a" />
+
+
+---
+
+## 🚀 Getting Started (Run Locally)
+
+```bash
+# Clone the repo
+git clone https://github.com/sudarshanms07/Personal_Portfolio.git
+
+# Navigate to project
+cd Personal_Portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+---
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+
+---
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel**.
+
+---
+
+## 📬 Contact
+
+* 📧 Email: ms22maske@gmail.com
+* 💼 LinkedIn: https://www.linkedin.com/in/sudarshanmaske22/https://linkedin.com/in/your-profile
+* 💻 GitHub: https://github.com/sudarshanms07
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
