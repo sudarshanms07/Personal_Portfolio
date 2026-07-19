@@ -1,72 +1,128 @@
-# 💼 Sudarshan Maske - Portfolio
+# 💼 Sudarshan Maske | Software Engineer Portfolio
 
-🚀 Live Demo: https://personal-portfolio-delta-blond.vercel.app/
+[![Live Demo](https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=vercel&logoColor=white)](https://sudarshanmaske-portfolio.vercel.app)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
 ---
 
-## 👨‍💻 About Me
+## 🌐 Live Portfolio
 
-Hi, I'm **Sudarshan Maske**, a final-year engineering student and passionate **Frontend Developer**.
-I specialize in building modern, responsive, and user-focused web applications using React and Tailwind CSS.
+👉 **https://sudarshanmaske-portfolio.vercel.app**
+
+---
+
+## 👨‍💻 About
+
+Hi! I'm **Sudarshan Maske**, a Software Engineer passionate about building modern, responsive, and user-centric web applications.
+
+My interests include:
+
+- ⚛️ Frontend Development with React
+- 🌐 Full-Stack Web Development
+- 🧠 Data Structures & Algorithms
+- 🚀 Building scalable and intuitive user experiences
 
 ---
 
 ## 🛠️ Tech Stack
 
-* 💻 C++ (DSA & Problem Solving) 
-* ⚛️ React.js
-* 🎨 Tailwind CSS
-* 🧠 JavaScript (ES6+)
-* 🌐 HTML5 & CSS3
-* 🔗 Git & GitHub
-* 🚀 Vercel (Deployment)
+### Languages
+
+- C++
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Frontend
+
+- React.js
+- Tailwind CSS
+- Redux Toolkit
+- Formik
+- Yup
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- REST APIs
+
+### Tools
+
+- Git
+- GitHub
+- Vercel
+- VS Code
 
 ---
 
 ## ✨ Features
 
-* 🔥 Modern UI/UX design
-* 📱 Fully responsive (mobile-first)
-* ⚡ Smooth animations and transitions
-* 🧩 Reusable components
-* 📄 Downloadable Resume
-* 🔗 Social links (GitHub, LinkedIn, LeetCode)
+- Modern dark-themed UI
+- Fully responsive design
+- Smooth animations
+- Downloadable resume
+- Project showcase
+- Internship experience
+- Contact form with EmailJS
+- Social links (GitHub, LinkedIn & LeetCode)
 
 ---
 
-## 📊 DSA Profile
+## 🚀 Featured Projects
 
-* 🧠 Solved **280+ problems** on LeetCode
-* 🔗 LeetCode: https://leetcode.com/u/ms22maske/
+### 🎬 Movie Ticket Booking System
+
+- Full-stack MERN application
+- Authentication
+- Seat booking
+- Stripe payment integration
+- Email notifications
+- Admin dashboard
+
+### 🏥 Doctor Appointment Booking System
+
+- Patient dashboard
+- Doctor dashboard
+- Admin dashboard
+- Appointment scheduling
+- Responsive UI
 
 ---
 
-## 📸 Preview
+## 📊 DSA
 
-<img width="1867" height="908" alt="image" src="https://github.com/user-attachments/assets/d0914da0-2faf-4a74-ae1f-036d3fc51e3a" />
-
+- ✅ Solved **300+ LeetCode problems**
+- 🔗 LeetCode: https://leetcode.com/u/ms22maske/
 
 ---
 
-## 🚀 Getting Started (Run Locally)
+## 📸 Portfolio Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d0914da0-2faf-4a74-ae1f-036d3fc51e3a" width="100%" alt="Portfolio Preview"/>
+</p>
+
+---
+
+## 🚀 Run Locally
 
 ```bash
-# Clone the repo
 git clone https://github.com/sudarshanms07/Personal_Portfolio.git
 
-# Navigate to project
 cd Personal_Portfolio
 
-# Install dependencies
 npm install
 
-# Run development server
 npm run dev
 ```
 
 ---
 
-## 🏗️ Build for Production
+## 📦 Production Build
 
 ```bash
 npm run build
@@ -74,25 +130,31 @@ npm run build
 
 ---
 
+## 🌍 Deployment
+
+Deployed on **Vercel**.
 
 ---
 
-## 🌐 Deployment
+## 📫 Contact
 
-This project is deployed on **Vercel**.
+📧 Email: **ms22maske@gmail.com**
+
+💼 LinkedIn:
+https://www.linkedin.com/in/sudarshanmaske22/
+
+💻 GitHub:
+https://github.com/sudarshanms07
+
+🌐 Portfolio:
+https://sudarshanmaske-portfolio.vercel.app
 
 ---
 
-## 📬 Contact
+## ⭐ Support
 
-* 📧 Email: ms22maske@gmail.com
-* 💼 LinkedIn: https://www.linkedin.com/in/sudarshanmaske22/https://linkedin.com/in/your-profile
-* 💻 GitHub: https://github.com/sudarshanms07
+If you found this project helpful, consider giving it a ⭐ on GitHub.
 
----
-
-## ⭐ Show your support
-
-If you like this project, give it a ⭐ on GitHub!
+It helps others discover my work and motivates me to build more awesome projects.
 
 ---
