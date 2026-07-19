@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Movie Ticket Booking System",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A full-stack movie ticket booking application with user authentication, movie browsing, seat booking, Stripe payments and email notifications.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCss", "NodeJS","ExpressJs","MongoDb"],
     link: "https://movie-ticket-booking-system-inky.vercel.app/",
@@ -13,9 +13,9 @@ const projects = [
   {
     title: "Dr. Appointment Booking webpage",
     description:
-      "A full-featured dr. appoitment booking solution with admin management, payment processing, and analytics dashboard.",
+      "Developed a doctor appointment booking platform featuring patient, doctor and admin dashboards with appointment scheduling and responsive UI.",
     image: "/projects/project2.png",
-    tags: ["React", "TailwindCss", "NodeJS","ExpressJs","MongoDb", "Stripe", "PostgreSQL", "Tailwind"],
+    tags: ["React", "TailwindCss", "NodeJS","ExpressJs","MongoDb", "Stripe", "PostgreSQL"],
     link: "https://sudarshanms07.github.io/Dr.-Appointment-Booking/",
     github: "https://github.com/sudarshanms07/Dr.-Appointment-Booking",
   },
@@ -70,12 +70,16 @@ export const Projects = () => {
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
                   <a
                     href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <Github className="w-5 h-5" />
@@ -89,12 +93,16 @@ export const Projects = () => {
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
-                  <ArrowUpRight
-                    className="w-5 h-5 
-                  text-muted-foreground group-hover:text-primary
-                   group-hover:translate-x-1 
-                   group-hover:-translate-y-1 transition-all"
-                  />
+                  <a href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <ArrowUpRight
+                      className="w-5 h-5 text-muted-foreground group-hover:text-primary
+                                group-hover:translate-x-1 
+                                group-hover:-translate-y-1 transition-all"
+                    />
+                  </a>
+                  
                 </div>
                 <p className="text-muted-foreground text-sm">
                   {project.description}
@@ -115,12 +123,12 @@ export const Projects = () => {
         </div>
 
         {/* View All CTA */}
-        <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight onClick={() => {
+        <div onClick={() => {
                       window.location.href = "https://github.com/sudarshanms07";
-                  }} className="w-5 h-5" />
+                  }} className="text-center mt-12 animate-fade-in animation-delay-500">
+          <AnimatedBorderButton >
+            View All Projects
+            <ArrowUpRight  className="w-5 h-5" />
           </AnimatedBorderButton>
         </div>
       </div>

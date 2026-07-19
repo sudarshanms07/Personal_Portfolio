@@ -106,8 +106,9 @@ export const Contact = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+            Whether you're a recruiter, hiring manager, or fellow developer,
+            I'd love to connect. Feel free to reach out for opportunities,
+            collaborations, or just a conversation.
           </p>
         </div>
 
@@ -242,9 +243,8 @@ export const Contact = () => {
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
-                let's talk!
+                I'm currently open to full-time Software Engineer and Frontend Developer opportunities.
+                Always happy to connect with recruiters, developers, and tech enthusiasts.
               </p>
             </div>
           </div>

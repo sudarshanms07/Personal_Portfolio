@@ -3,7 +3,7 @@ import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 const socialLinks = [
   { icon: Github, href: "https://github.com/sudarshanms07", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/sudarshanmaske22/", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  //{ icon: Twitter, href: "#", label: "Twitter" },
 ];
 
 const footerLinks = [
@@ -36,6 +36,8 @@ export const Footer = () => {
               <a
                 key={link.href}
                 href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 {link.label}
@@ -49,6 +51,8 @@ export const Footer = () => {
               <a
                 key={social.label}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={social.label}
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >

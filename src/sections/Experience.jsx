@@ -2,12 +2,19 @@ const experiences = [
   {
     period: "June 2025 — Nov 2025",
     role: " Frontend Developer Intern",
-    company: "Pratyin Infotech consulting Pvt. Ltd",
+    company: "Pratyin Infotech Consulting Pvt. Ltd",
     description:[ "Collaborated in a team to build real-time web applications using React.js, Tailwind CSS, and JavaScript.",
                 "Built and optimized 15+ reusable React components, improving page load time by ~25%.",
                 "Implemented protected routes, form validation (Formik + Yup), and REST API integration using Axios.",
                 "Worked in Agile sprints, resolved 20+ UI bugs, and improved mobile responsiveness.",],
-    technologies: ["React", "TailwindCss"],
+    technologies: ["React",
+                    "JavaScript",
+                    "Tailwind CSS",
+                    "Redux Toolkit",
+                    "Formik",
+                    "Yup",
+                    "REST API",
+                    "Git"],
     current: false,
   },
 ];
@@ -72,7 +79,7 @@ export const Experience = () => {
                 <div
                   className={`pl-8 md:pl-0 ${
                     idx % 2 === 0
-                      ? "md:pr-16 md:text-right"
+                      ? "md:pr-16 "
                       : "md:col-start-2 md:pl-16"
                   }`}
                 >

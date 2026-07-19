@@ -9,7 +9,7 @@ const highlights = [
   },
   {
     icon: Lightbulb,
-    title: "250+ DSA problems",
+    title: "299+ DSA problems",
     description:
       "Focused on problem solving using Data Structures and algorithms ( C++ )",
   },
@@ -51,18 +51,23 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                  I'm a final-year engineering student and frontend-focused software developer
-                  with hands-on internship experience working on real-world web applications.
-                  My journey into development started with curiosity about how websites work,
-                  and quickly grew into a strong passion for building clean and interactive
-                  user interfaces.
+                   I'm a <strong className="text-foreground">Software Engineer</strong> with
+                    hands-on frontend internship experience building responsive, user-focused web
+                    applications. I enjoy creating clean, scalable interfaces and solving
+                    real-world problems through modern web technologies.
               </p>
 
               <p>
-                  I specialize in React, JavaScript, and Tailwind CSS, and have worked on
-                  features like protected routes, form handling with Formik & Yup, API
-                  integration, Redux state management, and responsive UI development. I enjoy
-                  turning designs into pixel-perfect, scalable components.
+                I specialize in <strong className="text-foreground">React.js</strong>,{" "}
+                <strong className="text-foreground">JavaScript</strong>,{" "}
+                <strong className="text-foreground">Tailwind CSS</strong>, and have hands-on
+                experience with{" "}
+                <strong className="text-foreground">Redux Toolkit</strong>,{" "}
+                <strong className="text-foreground">REST APIs</strong>,{" "}
+                <strong className="text-foreground">Formik & Yup</strong>,{" "}
+                <strong className="text-foreground">Git/GitHub</strong>, and reusable
+                component architecture to build scalable, production-ready frontend
+                applications.
               </p>
 
               <p>
@@ -75,11 +80,15 @@ export const About = () => {
 
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
-              <p className="text-lg font-medium italic text-foreground">
-                "I aim to grow as a software engineer by building meaningful products,
-                writing clean code, and continuously improving my skills through real-world
-                problem solving."
+              <h3 className="text-lg font-semibold mb-4 text-primary">
+                Looking For
+              </h3>
 
+              <p className="text-muted-foreground">
+                Seeking opportunities as a
+                <strong> Frontend Developer</strong> or
+                <strong> Software Engineer</strong>
+                where I can contribute, learn, and build impactful products.
               </p>
             </div>
           </div>
