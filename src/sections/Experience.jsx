@@ -1,4 +1,21 @@
 const experiences = [
+   {
+    period: "Aug 2026 — Present",
+    role: "Systems Engineer Trainee",
+    company: "Infosys Limited, Mysore",
+    description: [
+      "Currently undergoing structured technical training in Java, Object-Oriented Programming, Data Structures & Algorithms, SQL, and software development fundamentals.",
+      "Strengthening programming and problem-solving skills through instructor-led sessions, hands-on coding assignments, technical assessments, and self-paced learning.",
+    ],
+    technologies: [
+      "Java",
+      "OOP",
+      "DSA",
+      "SQL",
+      "Git",
+    ],
+    current: true,
+  },
   {
     period: "June 2025 — Nov 2025",
     role: " Frontend Developer Intern",
